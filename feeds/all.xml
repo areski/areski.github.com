@@ -1,40 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Areski Belaid's blog</title><link>http://www.areski.net/</link><description>Telefony with a Neurotic Pythonist</description><atom:link href="http://www.areski.net/feeds/all.xml" rel="self"></atom:link><lastBuildDate>Wed, 02 Jan 2013 02:03:37 +0100</lastBuildDate><item><title>Welcome</title><link>http://www.areski.net/welcome.html</link><description>&lt;p&gt;Welcome here, my name is Areski Belaid and this is my personal website!
-To give you a quick summary about myself, I'm a Co-Founder of Star2Billing, an Open Source advocat,
-a VoIP guy and &amp;quot;surtout&amp;quot; Pythonist.&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;I'm the author of few opensource projects all related to Telefony :&lt;/dt&gt;
-&lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;Newfies-Dialer : Voice Broadcasting and Emergency Calling solution&lt;/li&gt;
-&lt;li&gt;CDR-Stats : A call Analytics like for Asterisk and FreeSWITCH&lt;/li&gt;
-&lt;li&gt;A2Billing : Softswitches, VoIP Billing Solution&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;dt&gt;I contribute to few other open source projets, you can find more on Github :&lt;/dt&gt;
-&lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski"&gt;https://github.com/areski&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/Star2Billing"&gt;https://github.com/Star2Billing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;dt&gt;Some Python projects, I'm also working on :&lt;/dt&gt;
-&lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/python-acapela"&gt;https://github.com/areski/python-acapela&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/sms-khomp-api"&gt;https://github.com/areski/sms-khomp-api&lt;/a&gt; (Flask)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;dt&gt;Some Django projects, I'm also working on :&lt;/dt&gt;
-&lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/django-admin-tools-stats"&gt;https://github.com/areski/django-admin-tools-stats&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/django-audiofield"&gt;https://github.com/areski/django-audiofield&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;dt&gt;Some Lua projects, I'm also working on :&lt;/dt&gt;
-&lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/lua-acapela"&gt;https://github.com/areski/lua-acapela&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Areski Belaid</dc:creator><pubDate>Wed, 02 Jan 2013 02:03:37 +0100</pubDate><guid>tag:www.areski.net,2013-01-02:welcome.html</guid></item><item><title>Introduction to FreeSWITCH</title><link>http://www.areski.net/introduction-to-freeswitch.html</link><description>&lt;p&gt;FreeSWITCH is free and open source communications platform that helps to create voice and messaging application. It is licensed under the Mozilla Public License (MPL). The original author is Anthony Minessale and was first announced in January 2006.
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Areski Belaid's blog</title><link>http://www.areski.net/</link><description>Telefony with a Neurotic Pythonist</description><atom:link href="http://www.areski.net/feeds/all.xml" rel="self"></atom:link><lastBuildDate>Sun, 30 Dec 2012 19:00:00 +0100</lastBuildDate><item><title>Introduction to FreeSWITCH</title><link>http://www.areski.net/introduction-to-freeswitch.html</link><description>&lt;p&gt;FreeSWITCH is free and open source communications platform that helps to create voice and messaging application. It is licensed under the Mozilla Public License (MPL). The original author is Anthony Minessale and was first announced in January 2006.
 it's a very stable, scalable VoIP Softswitch, which offer a lot of flexibility for developers.&lt;/p&gt;
 &lt;p&gt;If you are a VoIP Enthousiast and only played with Asterisk, I will recommend you to give it a go.&lt;/p&gt;
 &lt;p&gt;Get Started : &lt;a class="reference external" href="http://wiki.freeswitch.org/wiki/Getting_Started_Guide"&gt;http://wiki.freeswitch.org/wiki/Getting_Started_Guide&lt;/a&gt;&lt;/p&gt;
@@ -149,4 +114,39 @@ one of those will be fully covered :)&lt;/p&gt;
 &lt;p&gt;A2Billing is an Open Source telecom switch and billing system capable of providing and billing for telecom products and services to customers such as calling card products, residential and wholesale VoIP termination, DID resale and callback services.&lt;/p&gt;
 &lt;p&gt;It is based on the PHP, Mysql, Asterisk.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Areski Belaid</dc:creator><pubDate>Sun, 21 Oct 2012 15:31:00 +0200</pubDate><guid>tag:www.areski.net,2012-10-21:telefony-projects.html</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Areski Belaid</dc:creator><pubDate>Sun, 21 Oct 2012 15:31:00 +0200</pubDate><guid>tag:www.areski.net,2012-10-21:telefony-projects.html</guid></item><item><title>Welcome</title><link>http://www.areski.net/welcome.html</link><description>&lt;p&gt;Welcome here, my name is Areski Belaid and this is my personal website!
+To give you a quick summary about myself, I'm a Co-Founder of Star2Billing, an Open Source advocat,
+a VoIP guy and &amp;quot;surtout&amp;quot; Pythonist.&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;I'm the author of few opensource projects all related to Telefony :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;Newfies-Dialer : Voice Broadcasting and Emergency Calling solution&lt;/li&gt;
+&lt;li&gt;CDR-Stats : A call Analytics like for Asterisk and FreeSWITCH&lt;/li&gt;
+&lt;li&gt;A2Billing : Softswitches, VoIP Billing Solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dt&gt;I contribute to few other open source projets, you can find more on Github :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski"&gt;https://github.com/areski&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/Star2Billing"&gt;https://github.com/Star2Billing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Some Python projects, I'm also working on :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/python-acapela"&gt;https://github.com/areski/python-acapela&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/sms-khomp-api"&gt;https://github.com/areski/sms-khomp-api&lt;/a&gt; (Flask)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Some Django projects, I'm also working on :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/django-admin-tools-stats"&gt;https://github.com/areski/django-admin-tools-stats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/django-audiofield"&gt;https://github.com/areski/django-audiofield&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Some Lua projects, I'm also working on :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/lua-acapela"&gt;https://github.com/areski/lua-acapela&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Areski Belaid</dc:creator><pubDate>Sun, 21 Oct 2012 15:31:00 +0200</pubDate><guid>tag:www.areski.net,2012-10-21:welcome.html</guid></item></channel></rss>
