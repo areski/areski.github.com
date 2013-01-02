@@ -1,14 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # from pelican.plugins import related_posts
+from pelican.plugins import assets
 
 # PLUGINS = [related_posts]
+PLUGINS = [assets]
 
 TIMEZONE = 'Europe/Madrid'
 DEFAULT_LANG = 'en'
 #LOCALE = ('en_US')
 
 SITEURL = 'http://www.areski.net'
+RELATIVE_URLS= True
 #SITEURL = 'http://localhost/~areski/django/MyProjects/Pelican/areski.github.com/output'
 
 DISPLAY_PAGES_ON_MENU = True

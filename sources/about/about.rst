@@ -1,6 +1,10 @@
 Welcome
 #######
 
+:date: 2012-10-21 15:31
+:author: Areski Belaid
+:category: Welcome
+
 
 Welcome here, my name is Areski Belaid and this is my personal website!
 To give you a quick summary about myself, I'm a Co-Founder of Star2Billing, an Open Source advocat,
