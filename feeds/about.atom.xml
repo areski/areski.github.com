@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Areski Belaid's blog</title><link href="http://www.areski.net/" rel="alternate"></link><link href="http://www.areski.net/feeds/about.atom.xml" rel="self"></link><id>http://www.areski.net/</id><updated>2013-01-02T02:03:37+01:00</updated><entry><title>Welcome</title><link href="http://www.areski.net/welcome.html" rel="alternate"></link><updated>2013-01-02T02:03:37+01:00</updated><author><name>Areski Belaid</name></author><id>tag:www.areski.net,2013-01-02:welcome.html</id><summary type="html">&lt;p&gt;Welcome here, my name is Areski Belaid and this is my personal website!
+To give you a quick summary about myself, I'm a Co-Founder of Star2Billing, an Open Source advocat,
+a VoIP guy and &amp;quot;surtout&amp;quot; Pythonist.&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;I'm the author of few opensource projects all related to Telefony :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;Newfies-Dialer : Voice Broadcasting and Emergency Calling solution&lt;/li&gt;
+&lt;li&gt;CDR-Stats : A call Analytics like for Asterisk and FreeSWITCH&lt;/li&gt;
+&lt;li&gt;A2Billing : Softswitches, VoIP Billing Solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dt&gt;I contribute to few other open source projets, you can find more on Github :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski"&gt;https://github.com/areski&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/Star2Billing"&gt;https://github.com/Star2Billing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Some Python projects, I'm also working on :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/python-acapela"&gt;https://github.com/areski/python-acapela&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/sms-khomp-api"&gt;https://github.com/areski/sms-khomp-api&lt;/a&gt; (Flask)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Some Django projects, I'm also working on :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/django-admin-tools-stats"&gt;https://github.com/areski/django-admin-tools-stats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/django-audiofield"&gt;https://github.com/areski/django-audiofield&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Some Lua projects, I'm also working on :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/lua-acapela"&gt;https://github.com/areski/lua-acapela&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+</summary></entry></feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Areski Belaid's blog</title><link href="http://www.areski.net/" rel="alternate"></link><link href="http://www.areski.net/feeds/Telefony.atom.xml" rel="self"></link><id>http://www.areski.net/</id><updated>2012-10-21T15:31:00+02:00</updated><entry><title>Telefony Projects</title><link href="http://www.areski.net/telefony-projects.html" rel="alternate"></link><updated>2012-10-21T15:31:00+02:00</updated><author><name>Areski Belaid</name></author><id>tag:www.areski.net,2012-10-21:telefony-projects.html</id><summary type="html">&lt;div class="section" id="voice-broadcasting"&gt;
+&lt;h2&gt;Voice Broadcasting&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Newfies-Dialer : Voice Broadcasting and Emergency Calling solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.newfies-dialer.org"&gt;http://www.newfies-dialer.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Newfies-Dialer is a free and open source voice broadcast application, which can fulfil a variety of roles for a range of industries and organisations who wish to contact large numbers of people by phone in a short space of time.&lt;/p&gt;
+&lt;p&gt;The Newfies-Dialer aplication has been built using a messaging system so that it can support distributed processing on cloud servers. The platform is focused on real-time operations and task call distributions to clustered brokers and workers meaning that many millions of calls can be processed daily.&lt;/p&gt;
+&lt;p&gt;Newfies-Dialer was commissioned by a charity named Kubatana (&lt;a class="reference external" href="http://www.kubatana.net"&gt;http://www.kubatana.net&lt;/a&gt;) based in Zimbabwe, which sponsors the Freedomfone project (&lt;a class="reference external" href="http://www.freedomfone.org/"&gt;http://www.freedomfone.org/&lt;/a&gt;) dedicated to providing information via phone technology.&lt;/p&gt;
+&lt;p&gt;Find more about Newfies-Dialer at &lt;a class="reference external" href="http://www.newfies-dialer.org"&gt;http://www.newfies-dialer.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="call-analytics"&gt;
+&lt;h2&gt;Call Analytics&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;CDR-Stats : A call Analytics like for Asterisk and FreeSWITCH&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.cdr-stats.org"&gt;http://www.cdr-stats.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CDR-Stats is a free and open source call detail record analysis and reporting software for Freeswitch, Asterisk and other types of VoIP Switch. It allows you to interrogate CDR to provide reports and statistics via a simple to use powerful web interface.&lt;/p&gt;
+&lt;p&gt;It is based on the Django Python Framework, Celery, SocketIO, Gevent and MongoDB.&lt;/p&gt;
+&lt;p&gt;Find more about CDR-Stats at &lt;a class="reference external" href="http://www.cdr-stats.org"&gt;http://www.cdr-stats.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="voip-billing-calling-card"&gt;
+&lt;h2&gt;VoIP-Billing &amp;amp; Calling Card&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;A2Billing : Softswitches, VoIP Billing Solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.asterisk2billing.org"&gt;http://www.asterisk2billing.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A2Billing is an Open Source telecom switch and billing system capable of providing and billing for telecom products and services to customers such as calling card products, residential and wholesale VoIP termination, DID resale and callback services.&lt;/p&gt;
+&lt;p&gt;It is based on the PHP, Mysql, Asterisk.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry></feed>

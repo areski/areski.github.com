@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Areski Belaid's blog</title><link href="http://www.areski.net/" rel="alternate"></link><link href="http://www.areski.net/feeds/News.atom.xml" rel="self"></link><id>http://www.areski.net/</id><updated>2012-10-21T15:31:00+02:00</updated><entry><title>New Blog</title><link href="http://www.areski.net/new-blog.html" rel="alternate"></link><updated>2012-10-21T15:31:00+02:00</updated><author><name>Areski Belaid</name></author><id>tag:www.areski.net,2012-10-21:new-blog.html</id><summary type="html">&lt;p&gt;In the last years, I have been working on many open source projects,
+lately I spent most of my time between those Newfies-Dialer and CDR-Stats.
+Being author and maintainer of continuous developing project is a lot of work and
+as many developers, I ended up putting all my efforts and free time into those products.
+My own blog has been a disaster for many years, I even wondered how the website is still up.
+I started my previous blog 9 years ago, I did few posts the first months, with a lot of motivations,
+and then it losts his way...&lt;/p&gt;
+&lt;p&gt;I guess at that time I didn't had a clear idea why I wanted to keep a blog, neither did I know anything about the audience,
+but the lack of motivation is certainly because I was missing a clear purpose, what I wanted to talk about.
+A blog is not about yourself, it's about sharing. Sharing ideas, sharing something you learnt.
+I learnt to share with opensource communities, I learn how to give and I learnt how to receive and appreciate efforts of other,
+and mostly value those.
+I have a clear idea what I want to share with peoples, experience, knowleges, things I learnt hardly, obviously what I want to
+share is what matter to me.&lt;/p&gt;
+&lt;div class="section" id="so-what-do-i-want-to-talk-about-here"&gt;
+&lt;h2&gt;So What do I want to talk about here?&lt;/h2&gt;
+&lt;p&gt;Well I'm a Python adict, also an entrepreneur for the last years, I'm very interested into better programming and deployment,
+Continuous integration, Testing, but most of all I love telefony!&lt;/p&gt;
+&lt;p&gt;There is plenty of things to tell about those things, no ? and most of all
+plenty of peoples willing to learn and share about them.&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;So here it comes out of my pocket, just few ideas for a first blog post:&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;Introduction to FreeSWITCH&lt;/li&gt;
+&lt;li&gt;Why Newfies-Dialer ? Telemarketing danger!&lt;/li&gt;
+&lt;li&gt;MongoDB 2.2, aggregation&lt;/li&gt;
+&lt;li&gt;Django and Travis-CI&lt;/li&gt;
+&lt;li&gt;DevOps with Salt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Maybe write some good recipes and tutorials, I hope by the time you read this,
+one of those will be fully covered :)&lt;/p&gt;
+&lt;p&gt;/Seeu pronto&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry></feed>

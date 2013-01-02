@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Areski Belaid's blog</title><link href="http://www.areski.net/" rel="alternate"></link><link href="http://www.areski.net/feeds/FreeSWITCH.atom.xml" rel="self"></link><id>http://www.areski.net/</id><updated>2012-12-30T19:00:00+01:00</updated><entry><title>Introduction to FreeSWITCH</title><link href="http://www.areski.net/introduction-to-freeswitch.html" rel="alternate"></link><updated>2012-12-30T19:00:00+01:00</updated><author><name>Areski Belaid</name></author><id>tag:www.areski.net,2012-12-30:introduction-to-freeswitch.html</id><summary type="html">&lt;p&gt;FreeSWITCH is free and open source communications platform that helps to create voice and messaging application. It is licensed under the Mozilla Public License (MPL). The original author is Anthony Minessale and was first announced in January 2006.
+it's a very stable, scalable VoIP Softswitch, which offer a lot of flexibility for developers.&lt;/p&gt;
+&lt;p&gt;If you are a VoIP Enthousiast and only played with Asterisk, I will recommend you to give it a go.&lt;/p&gt;
+&lt;p&gt;Get Started : &lt;a class="reference external" href="http://wiki.freeswitch.org/wiki/Getting_Started_Guide"&gt;http://wiki.freeswitch.org/wiki/Getting_Started_Guide&lt;/a&gt;&lt;/p&gt;
+&lt;div class="section" id="install"&gt;
+&lt;h2&gt;Install&lt;/h2&gt;
+&lt;p&gt;If you want to install FreeSWITCH on an Ubuntu 12.04 TLS without too much pain :
+&lt;a class="reference external" href="https://github.com/areski/newfies-dialer/blob/master/install/install-freeswitch.sh"&gt;https://github.com/areski/newfies-dialer/blob/master/install/install-freeswitch.sh&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now if you are using CentOS, you can easily install it that way :&lt;/p&gt;
+&lt;p&gt;a) install the Freeswitch Repo
+rpm -Uvh &lt;a class="reference external" href="http://files.freeswitch.org/yum/freeswitch-release-1-0.noarch.rpm"&gt;http://files.freeswitch.org/yum/freeswitch-release-1-0.noarch.rpm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;b) install the freeswitch files
+yum -y install freeswitch-config-vanilla freeswitch-codec-siren freeswitch-codec-passthru-amr freeswitch-application-conference freeswitch-application-db freeswitch-endpoint-dingaling freeswitch-application-enum freeswitch-application-esf freeswitch-application-expr freeswitch-application-fifo freeswitch-asrtts-flite freeswitch-application-fsv freeswitch-codec-passthru-g723_1 freeswitch-codec-passthru-g729 freeswitch-codec-h26x freeswitch-application-hash freeswitch-application-httapi freeswitch-codec-ilbc freeswitch-format-local-stream freeswitch-lua freeswitch-format-native-file freeswitch-lang-de freeswitch-lang-en freeswitch-lang-fr freeswitch-lang-ru freeswitch-format-mod-shout freeswitch-codec-speex freeswitch-spidermonkey freeswitch-format-tone-stream freeswitch-asrtts-tts-commandline freeswitch-application-valet_parking freeswitch-application-voicemail freeswitch-format-shell-stream&lt;/p&gt;
+&lt;p&gt;Once you have FreeSWITCH installed and running you will want to start making full calls, there is 2 main scenarios that we always want to replicate when we set a box, the first one is to call in, for instance let's a user call VoIP application and the second is to call out, either by doing a raw outbound call from the platform to the PSTN or by allowing a user to call in and then call out to someone in the realworld.&lt;/p&gt;
+&lt;p&gt;So let's do the seconds approach as it covers both case.&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Configure SIP phone to call in.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto&lt;/p&gt;
+&lt;ol class="arabic simple" start="2"&gt;
+&lt;li&gt;Configure outbound Gateway&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto&lt;/p&gt;
+&lt;ol class="arabic simple" start="3"&gt;
+&lt;li&gt;Configure a Dialplan to let the user call an extension and call out&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto&lt;/p&gt;
+&lt;p&gt;You want to go deeper into FreeSWITCH, the wiki is very rich and you might found answer to most of your question.
+Sometimes is just more simple to lie back and read a book, so for those that like the paper :
+&lt;a class="reference external" href="https://www.packtpub.com/freeswitch-1-0-6-build-robust-high-performance-telephony-systems/book"&gt;https://www.packtpub.com/freeswitch-1-0-6-build-robust-high-performance-telephony-systems/book&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Well that's not too bad, isn't it!
+If you have few ideas to improve this article and wants to share some of the issues you met.&lt;/p&gt;
+&lt;p&gt;/Seeu pronto&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry></feed>
