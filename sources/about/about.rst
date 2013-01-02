@@ -1,9 +1,9 @@
-Welcome
-#######
+About
+#####
 
 :date: 2012-10-21 15:31
 :author: Areski Belaid
-:category: Welcome
+:category: about
 
 
 Welcome here, my name is Areski Belaid and this is my personal website!
