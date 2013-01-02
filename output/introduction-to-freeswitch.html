@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Personal website and blog of Arezqui Belaid." />
+  <meta name="keywords" content="python, telefony, freeswitch, asterisk" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to FreeSWITCH</title>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+
+    <link rel="stylesheet" href="http://www.areski.net/theme/css/styles.min.css?9b05ffb8">
+
+
+  <link rel="shortcut icon" type="image/png" href="http://www.gravatar.com/avatar/2319bfc31c8757d206a3df6b34d9a852.png" />
+  
+  
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+  
+
+</head>
+<body>
+<header class="main-header">
+  
+<a href="http://github.com/areski/">
+<img style="position: absolute; top: 0; left: 128px; border: 0; height: 119px;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+
+  <hgroup>
+    <div>
+      <img src="http://www.gravatar.com/avatar/2319bfc31c8757d206a3df6b34d9a852.png" style="margin-left: 34px; margin-top: 30px;">
+    </div>
+    <h1><a href="/" id="home-link">Areski Belaid's blog</a></h1>
+    <h2>Telefony with a Neurotic Pythonist</h2>
+  </hgroup>
+  <nav>
+    <ul class="main-nav">
+      
+
+      
+        
+      
+
+      
+      <li><a href="http://www.areski.net/about.html" id="About Me-link">About Me</a></li>
+      
+      <li><a href="https://twitter.com/areskib" id="Twitter-link">Twitter</a></li>
+      
+      <li><a href="http://es.linkedin.com/in/areski" id="Linkedin-link">Linkedin</a></li>
+      
+      <li><a href="http://github.com/areski/" id="Github-link">Github</a></li>
+      
+
+      <li><a href="./feeds/all.xml" id="feed-link">Feed</a></li>
+      <li><a href="mailto:areski@gmail.com?subject=Hello" id="contact-link">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="http://pelican.notmyidea.org" class="fork-me">Powered by Pelican.</a>
+
+</header>
+
+<section class="main-section blog-section" id="blog-posts">
+	<h3 class="date">December 2012</h3>
+  <article>
+	<hgroup>
+	
+	<h2><a href="./introduction-to-freeswitch.html">Introduction to FreeSWITCH</a></h2>
+	
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="areskib">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+	
+<g:plusone size="medium"></g:plusone>
+
+    
+	</hgroup>
+	<p>FreeSWITCH is free and open source communications platform that helps to create voice and messaging application. It is licensed under the Mozilla Public License (MPL). The original author is Anthony Minessale and was first announced in January 2006.
+it's a very stable, scalable VoIP Softswitch, which offer a lot of flexibility for developers.</p>
+<p>If you are a VoIP Enthousiast and only played with Asterisk, I will recommend you to give it a go.</p>
+<p>Get Started : <a class="reference external" href="http://wiki.freeswitch.org/wiki/Getting_Started_Guide">http://wiki.freeswitch.org/wiki/Getting_Started_Guide</a></p>
+<div class="section" id="install">
+<h2>Install</h2>
+<p>If you want to install FreeSWITCH on an Ubuntu 12.04 TLS without too much pain :
+<a class="reference external" href="https://github.com/areski/newfies-dialer/blob/master/install/install-freeswitch.sh">https://github.com/areski/newfies-dialer/blob/master/install/install-freeswitch.sh</a></p>
+<p>Now if you are using CentOS, you can easily install it that way :</p>
+<p>a) install the Freeswitch Repo
+rpm -Uvh <a class="reference external" href="http://files.freeswitch.org/yum/freeswitch-release-1-0.noarch.rpm">http://files.freeswitch.org/yum/freeswitch-release-1-0.noarch.rpm</a></p>
+<p>b) install the freeswitch files
+yum -y install freeswitch-config-vanilla freeswitch-codec-siren freeswitch-codec-passthru-amr freeswitch-application-conference freeswitch-application-db freeswitch-endpoint-dingaling freeswitch-application-enum freeswitch-application-esf freeswitch-application-expr freeswitch-application-fifo freeswitch-asrtts-flite freeswitch-application-fsv freeswitch-codec-passthru-g723_1 freeswitch-codec-passthru-g729 freeswitch-codec-h26x freeswitch-application-hash freeswitch-application-httapi freeswitch-codec-ilbc freeswitch-format-local-stream freeswitch-lua freeswitch-format-native-file freeswitch-lang-de freeswitch-lang-en freeswitch-lang-fr freeswitch-lang-ru freeswitch-format-mod-shout freeswitch-codec-speex freeswitch-spidermonkey freeswitch-format-tone-stream freeswitch-asrtts-tts-commandline freeswitch-application-valet_parking freeswitch-application-voicemail freeswitch-format-shell-stream</p>
+<p>Once you have FreeSWITCH installed and running you will want to start making full calls, there is 2 main scenarios that we always want to replicate when we set a box, the first one is to call in, for instance let's a user call VoIP application and the second is to call out, either by doing a raw outbound call from the platform to the PSTN or by allowing a user to call in and then call out to someone in the realworld.</p>
+<p>So let's do the seconds approach as it covers both case.</p>
+<ol class="arabic simple">
+<li>Configure SIP phone to call in.</li>
+</ol>
+<p>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
+<ol class="arabic simple" start="2">
+<li>Configure outbound Gateway</li>
+</ol>
+<p>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
+<ol class="arabic simple" start="3">
+<li>Configure a Dialplan to let the user call an extension and call out</li>
+</ol>
+<p>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
+<p>You want to go deeper into FreeSWITCH, the wiki is very rich and you might found answer to most of your question.
+Sometimes is just more simple to lie back and read a book, so for those that like the paper :
+<a class="reference external" href="https://www.packtpub.com/freeswitch-1-0-6-build-robust-high-performance-telephony-systems/book">https://www.packtpub.com/freeswitch-1-0-6-build-robust-high-performance-telephony-systems/book</a></p>
+<p>Well that's not too bad, isn't it!
+If you have few ideas to improve this article and wants to share some of the issues you met.</p>
+<p>/Seeu pronto</p>
+</div>
+
+
+	<br/>	
+	<footer>
+	
+
+	<br/>
+	
+	<div class="comments">
+			<div id="disqus_thread"></div>
+			<script type="text/javascript">
+					var disqus_identifier = "introduction-to-freeswitch.html";
+					(function() {
+					 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					 dsq.src = 'http://areski-blog.disqus.com/embed.js';
+					 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					 })();
+			 </script>
+	 </div>
+	 
+	</footer>
+	</article>
+</section>
+
+
+
+<div class="mobile-nav">
+  <span class="nav-btn" id="mobile-nav-btn">
+    <span class="nav-btn-bar"></span>
+    <span class="nav-btn-bar"></span>
+    <span class="nav-btn-bar"></span>
+  </span>
+  <h3>
+    <a href="./" id="mobile-title">.</a>
+  </h3>
+</div>
+
+
+    <script src="http://www.areski.net/theme/gen/packed.js?0db83157"></script>
+
+
+<script>
+    // Function to get the Maximam value in Array
+    Array.max = function( array ) {
+        return Math.max.apply( Math, array );
+    };
+
+    var heights = [];
+    heights.push($('.main-header').height());
+    heights.push($('.main-section').height());
+    heights.push($(window).height());
+
+    var max_height = Array.max(heights);
+    $('.main-header').height(max_height+80);
+
+    $('#mobile-title').text(window.location.hostname);
+
+
+    var github_username = 'areski';
+
+
+
+    var google_username = '105014012676631081488';
+    var google_accesskey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX';
+
+
+
+    var twitter_username = 'areskib';
+
+
+
+    var instagram_username = 'XXXXXXXXXX';
+    var instagram_accesskey = 'XXXXXXXXXXXXXXXXXXX';
+
+</script>
+
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-325034-3']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+
+</body>

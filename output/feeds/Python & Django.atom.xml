@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Areski Belaid's blog</title><link href="http://www.areski.net/" rel="alternate"></link><link href="http://www.areski.net/feeds/Python%20&amp;%20Django.atom.xml" rel="self"></link><id>http://www.areski.net/</id><updated>2012-10-21T15:31:00+02:00</updated><entry><title>Python and Django</title><link href="http://www.areski.net/python-and-django.html" rel="alternate"></link><updated>2012-10-21T15:31:00+02:00</updated><author><name>Areski Belaid</name></author><id>tag:www.areski.net,2012-10-21:python-and-django.html</id><summary type="html">&lt;div class="section" id="python-miscellaneous"&gt;
+&lt;h2&gt;Python Miscellaneous&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/python-acapela"&gt;https://github.com/areski/python-acapela&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/sms-khomp-api"&gt;https://github.com/areski/sms-khomp-api&lt;/a&gt; (Flask)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur, risus a rhoncus dictum, sapien orci varius urna, in convallis turpis turpis et metus.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="django-miscellaneous"&gt;
+&lt;h2&gt;Django Miscellaneous&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/django-admin-tools-stats"&gt;https://github.com/areski/django-admin-tools-stats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/django-audiofield"&gt;https://github.com/areski/django-audiofield&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur, risus a rhoncus dictum, sapien orci varius urna, in convallis turpis turpis et metus.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry></feed>
