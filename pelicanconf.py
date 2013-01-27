@@ -11,7 +11,7 @@ DEFAULT_LANG = 'en'
 #LOCALE = ('en_US')
 
 SITEURL = 'http://www.areski.net'
-RELATIVE_URLS= True
+RELATIVE_URLS = True
 #SITEURL = 'http://localhost/~areski/django/MyProjects/Pelican/areski.github.com/output'
 
 DISPLAY_PAGES_ON_MENU = True
@@ -50,6 +50,8 @@ LINKS = (
 # Social widget
 SOCIAL = (
     ('About Me', SITEURL + '/about.html'),
+    ('Telefony', SITEURL + '/telefony-projects.html'),
+    ('Python & Django', SITEURL + '/python-and-django.html'),
     ('Twitter', 'https://twitter.com/areskib'),
     ('Linkedin', 'http://es.linkedin.com/in/areski'),
     ('Github', 'http://github.com/areski/'),

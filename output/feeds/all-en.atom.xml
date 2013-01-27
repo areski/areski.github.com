@@ -33,6 +33,41 @@ Sometimes is just more simple to lie back and read a book, so for those that lik
 If you have few ideas to improve this article and wants to share some of the issues you met.&lt;/p&gt;
 &lt;p&gt;/Seeu pronto&lt;/p&gt;
 &lt;/div&gt;
+</summary></entry><entry><title>About</title><link href="http://www.areski.net/about.html" rel="alternate"></link><updated>2012-10-21T15:31:00+02:00</updated><author><name>Areski Belaid</name></author><id>tag:www.areski.net,2012-10-21:about.html</id><summary type="html">&lt;p&gt;Welcome here, my name is Areski Belaid and this is my personal website!
+To give you a quick summary about myself, I'm a Co-Founder of Star2Billing, an Open Source advocat,
+a VoIP guy and &amp;quot;surtout&amp;quot; Pythonist.&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;I'm the author of few opensource projects all related to Telefony :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;Newfies-Dialer : Voice Broadcasting and Emergency Calling solution&lt;/li&gt;
+&lt;li&gt;CDR-Stats : A call Analytics like for Asterisk and FreeSWITCH&lt;/li&gt;
+&lt;li&gt;A2Billing : Softswitches, VoIP Billing Solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dt&gt;I contribute to few other open source projets, you can find more on Github :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski"&gt;https://github.com/areski&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/Star2Billing"&gt;https://github.com/Star2Billing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Some Python projects, I'm also working on :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/python-acapela"&gt;https://github.com/areski/python-acapela&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/sms-khomp-api"&gt;https://github.com/areski/sms-khomp-api&lt;/a&gt; (Flask)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Some Django projects, I'm also working on :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/django-admin-tools-stats"&gt;https://github.com/areski/django-admin-tools-stats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/django-audiofield"&gt;https://github.com/areski/django-audiofield&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Some Lua projects, I'm also working on :&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/lua-acapela"&gt;https://github.com/areski/lua-acapela&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
 </summary></entry><entry><title>New Blog</title><link href="http://www.areski.net/new-blog.html" rel="alternate"></link><updated>2012-10-21T15:31:00+02:00</updated><author><name>Areski Belaid</name></author><id>tag:www.areski.net,2012-10-21:new-blog.html</id><summary type="html">&lt;p&gt;In the last years, I have been working on many open source projects,
 lately I spent most of my time between those Newfies-Dialer and CDR-Stats.
 Being author and maintainer of continuous developing project is a lot of work and
@@ -114,39 +149,4 @@ one of those will be fully covered :)&lt;/p&gt;
 &lt;p&gt;A2Billing is an Open Source telecom switch and billing system capable of providing and billing for telecom products and services to customers such as calling card products, residential and wholesale VoIP termination, DID resale and callback services.&lt;/p&gt;
 &lt;p&gt;It is based on the PHP, Mysql, Asterisk.&lt;/p&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Welcome</title><link href="http://www.areski.net/welcome.html" rel="alternate"></link><updated>2012-10-21T15:31:00+02:00</updated><author><name>Areski Belaid</name></author><id>tag:www.areski.net,2012-10-21:welcome.html</id><summary type="html">&lt;p&gt;Welcome here, my name is Areski Belaid and this is my personal website!
-To give you a quick summary about myself, I'm a Co-Founder of Star2Billing, an Open Source advocat,
-a VoIP guy and &amp;quot;surtout&amp;quot; Pythonist.&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;I'm the author of few opensource projects all related to Telefony :&lt;/dt&gt;
-&lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;Newfies-Dialer : Voice Broadcasting and Emergency Calling solution&lt;/li&gt;
-&lt;li&gt;CDR-Stats : A call Analytics like for Asterisk and FreeSWITCH&lt;/li&gt;
-&lt;li&gt;A2Billing : Softswitches, VoIP Billing Solution&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;dt&gt;I contribute to few other open source projets, you can find more on Github :&lt;/dt&gt;
-&lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski"&gt;https://github.com/areski&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/Star2Billing"&gt;https://github.com/Star2Billing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;dt&gt;Some Python projects, I'm also working on :&lt;/dt&gt;
-&lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/python-acapela"&gt;https://github.com/areski/python-acapela&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/sms-khomp-api"&gt;https://github.com/areski/sms-khomp-api&lt;/a&gt; (Flask)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;dt&gt;Some Django projects, I'm also working on :&lt;/dt&gt;
-&lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/django-admin-tools-stats"&gt;https://github.com/areski/django-admin-tools-stats&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/django-audiofield"&gt;https://github.com/areski/django-audiofield&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;dt&gt;Some Lua projects, I'm also working on :&lt;/dt&gt;
-&lt;dd&gt;&lt;ul class="first last simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/areski/lua-acapela"&gt;https://github.com/areski/lua-acapela&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
 </summary></entry></feed>
