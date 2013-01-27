@@ -1,0 +1,9 @@
+:title: 404 Page not found
+:slug: 404
+:status: hidden
+
+## Oooopsies! 404
+We lost the page. I'm really sure it's around here somewhere! 
+
+Try going back to the [home page](/) and see if the page moved somewhere
+
